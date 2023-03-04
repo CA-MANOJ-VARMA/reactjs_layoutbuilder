@@ -1,0 +1,19 @@
+/* Write your CSS here */
+
+.css-configurationcontroller-container {
+  padding: 30px;
+  background-color: #475569;
+  color: white;
+}
+
+.css-ul-checkbox-container {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+.css-checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
