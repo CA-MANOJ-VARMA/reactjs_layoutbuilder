@@ -1,12 +1,11 @@
 import React from 'react'
 
 const ConfigurationContext = React.createContext({
-  showContent: true,
-  showLeftNavbar: true,
-  showRightNavbar: true,
+  showContent: '',
+  showLeftNavbar: '',
+  showRightNavbar: '',
   onToggleShowContent: () => {},
   onToggleShowLeftNavbar: () => {},
   onToggleShowRightNavbar: () => {},
 })
-
 export default ConfigurationContext
